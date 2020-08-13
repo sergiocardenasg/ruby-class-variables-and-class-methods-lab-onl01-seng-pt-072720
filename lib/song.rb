@@ -15,8 +15,8 @@ class Song
     @@count
   end
 
-  def genre
-
+  def artists
+    @@artists
   end
 
 end
