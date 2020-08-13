@@ -34,7 +34,6 @@ class Song
     artist_hash = {}
     counter = 0
     @@artists.each {|artist| artist_hash[artist] = counter+=1}
-    artist_hash
   end
 
 end
