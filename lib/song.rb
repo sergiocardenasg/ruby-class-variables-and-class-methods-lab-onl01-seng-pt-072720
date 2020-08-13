@@ -27,7 +27,7 @@ class Song
 
   def self.genre_count
     genre_hash = {}
-    @@genres.each {|genre, count| genre_hash[genre] = count}
+    @@genres.each {|genre| genre_hash[genre] += 1}
   end
 
   def self.artist_count
